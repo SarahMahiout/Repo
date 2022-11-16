@@ -25,6 +25,12 @@ public class LancerApp1 {
 		
 		// affiche la fenêtre
 		laFenetre.setVisible(true);
+		int larg=3;
+		int xg=4;
+		int yg=6;
+		int haut=50;
+		Visage V=new Visage(d, xg ,yg,larg,haut);
+		d.ajouterObjet(V);
 		
 		// les trains de cercles avec image et en couleur
 		TrainCercle[] lesTrains= new TrainCercle[10];
@@ -35,7 +41,7 @@ public class LancerApp1 {
 		(float) Math.random()), d, 10, 10);
 		d.ajouterObjet(lesTrains[i]);
 		}
-		
+	
 		
 		while(true) {
 		// la zone de dessin se réaffiche
