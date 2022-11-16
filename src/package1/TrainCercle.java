@@ -109,7 +109,7 @@ public  class TrainCercle  implements IObjetAnimable {
         leDebut.deplacerSelonPointe();
     }
 
-
+	
 
 }//train cercle	
 	
